@@ -1,0 +1,70 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Escute aquele famoso \"rapaaaaiz\" direto da sua alexa!",
+          "examplePhrases": [
+            "Alexa, bordão do xaropinho",
+            "Alexa, abre bordão do xaropinho"
+          ],
+          "keywords": [
+            "meme",
+            "xaropinho",
+            "engraçado",
+            "rapaz"
+          ],
+          "name": "Bordão do xaropinho",
+          "description": "Escute aquele famoso \"rapaaaaiz\" direto da sua alexa.\n\nEm breve mais áudios.",
+          "smallIconUri": "file://assets/images/pt-BR_smallIconUri.png",
+          "largeIconUri": "file://assets/images/pt-BR_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Nothing special, it\u0027s just a simple meme audio skill",
+      "category": "NOVELTY",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "BR"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:974079351055:function:b54b14a7-38d0-48a0-ba57-3c11fe8b9b47:Release_1"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:974079351055:function:b54b14a7-38d0-48a0-ba57-3c11fe8b9b47:Release_1"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:974079351055:function:b54b14a7-38d0-48a0-ba57-3c11fe8b9b47:Release_1"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:974079351055:function:b54b14a7-38d0-48a0-ba57-3c11fe8b9b47:Release_1"
+            }
+          }
+        }
+      }
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "pt-BR": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
